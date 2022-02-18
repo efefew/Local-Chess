@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3be041cf-4dc8-50ce-c9b7-acc02154c9b5": {
+      "ProjectGuid": "3be041cf-4dc8-50ce-c9b7-acc02154c9b5",
+      "DisplayName": "Mirror.Examples",
+      "ColorIndex": 0
+    },
+    "2ae757c6-6542-2b47-7c01-9067b59a9704": {
+      "ProjectGuid": "2ae757c6-6542-2b47-7c01-9067b59a9704",
+      "DisplayName": "Mirror",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "501bd3ff-7f48-2366-810a-1677ff50e37f": {
+      "ProjectGuid": "501bd3ff-7f48-2366-810a-1677ff50e37f",
+      "DisplayName": "Assembly-CSharp",
+      "ColorIndex": 2
+    },
+    "8e675f6f-5048-c030-f36c-5e60e8d609ca": {
+      "ProjectGuid": "8e675f6f-5048-c030-f36c-5e60e8d609ca",
+      "DisplayName": "Mirror.Editor",
+      "ColorIndex": 3
+    },
+    "e964f098-826d-485a-38be-71deee943817": {
+      "ProjectGuid": "e964f098-826d-485a-38be-71deee943817",
+      "DisplayName": "Mirror.Components",
+      "ColorIndex": 4
+    },
+    "55f980d4-dc73-f7c2-b095-d00baab82b25": {
+      "ProjectGuid": "55f980d4-dc73-f7c2-b095-d00baab82b25",
+      "DisplayName": "Unity.Mirror.CodeGen",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

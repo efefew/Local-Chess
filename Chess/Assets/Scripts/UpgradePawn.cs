@@ -4,7 +4,7 @@ public class UpgradePawn : MonoBehaviour
 {
     public GameObject g;
     public Table table;
-    int x, y;
+    private int x, y;
     public void OnUpgrade(int x, int y)
     {
         this.x = x;

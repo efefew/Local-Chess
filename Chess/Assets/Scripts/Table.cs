@@ -3,7 +3,7 @@ using UnityEngine.UI;
 public struct InformationOfTheSituation
 {
     public Cage[][] cages;
-    public bool 
+    public bool
         hideHint,
         moving,
         rayCheck,
@@ -18,7 +18,7 @@ public struct InformationForGeneralMove
 public class Cage
 {
     #region PUBLIC
-    public bool 
+    public bool
         canMove = false,//может ходить
         moverBlack,//цвет фигуры, которая хочет встать на эту клетку
         black,//цвет фигуры на этой клетке
@@ -40,9 +40,9 @@ public class Cage
     public Table table;
     #endregion
     #region PRIVATE
-    int X, Y;
+    private int X, Y;
     #endregion
-    public Cage(int x, int y, float scalePos, GameObject image,Table table, bool black = false, int rank = -1, int id = -1)
+    public Cage(int x, int y, float scalePos, GameObject image, Table table, bool black = false, int rank = -1, int id = -1)
     {
         X = x;
         Y = y;
@@ -56,7 +56,7 @@ public class Cage
             case 0: firstStep = true; break;
             case 4: firstStep = true; break;
             case 5: firstStep = true; break;
-            default:firstStep = false; break;
+            default: firstStep = false; break;
         }
         position = new Vector2(X * scalePos, Y * scalePos);
     }
@@ -93,7 +93,7 @@ public class Cage
         info.moving = true;
         info.rayMove = true;
         ChooseChessPiece(info);
-        
+
         return countFreeMove;
     }
     public void RayCheck(Cage[][] cages)//проверка на наличие шаха этой фигурой
@@ -106,16 +106,17 @@ public class Cage
         info.rayMove = false;
         ChooseChessPiece(info);
     }
-    void ChooseChessPiece(InformationOfTheSituation info)//выбор шахматной Фигуры
+
+    private void ChooseChessPiece(InformationOfTheSituation info)//выбор шахматной Фигуры
     {
         switch (rank)
         {
-            case 0: Tower   (info); break;
-            case 1: Horse   (info); break;
-            case 2: Bishop  (info); break;
-            case 3: Queen   (info); break;
-            case 4: King    (info); break;
-            case 5: Pawn    (info); break;
+            case 0: Tower(info); break;
+            case 1: Horse(info); break;
+            case 2: Bishop(info); break;
+            case 3: Queen(info); break;
+            case 4: King(info); break;
+            case 5: Pawn(info); break;
             default: break;
         }
     }
@@ -126,7 +127,7 @@ public class Cage
         rank = moverRank;
         id = moverId;
         black = moverBlack;
-        if(rank == 4)//если король
+        if (rank == 4)//если король
         {
             if (moverCage.firstStep && Mathf.Abs(moverCage.X - X) > 1)
                 table.GeneralMove();
@@ -145,7 +146,7 @@ public class Cage
             }
             if (black)
             {
-                if(Y == 0)//если дошёл до конца
+                if (Y == 0)//если дошёл до конца
                     return true;
             }
             else
@@ -158,10 +159,11 @@ public class Cage
         moverCage.firstStep = false;
         return false;
     }
-    void ChooseTarget(Cage moveToCage, InformationOfTheSituation info)//выбор клетки
+
+    private void ChooseTarget(Cage moveToCage, InformationOfTheSituation info)//выбор клетки
     {
         bool bind = idBind == 0 || !table.check && (moveToCage.idBind == idBind);
-        
+
         if (bind && (!table.check || moveToCage.saveCheck) || rank == 4)
         {
             countFreeMove++;
@@ -170,7 +172,7 @@ public class Cage
                 if (info.rayCheck)
                 {
                     moveToCage.checkMove++;
-                    if(moveToCage.rank == 4 && moveToCage.black!=black)
+                    if (moveToCage.rank == 4 && moveToCage.black != black)
                         saveCheck = true;
                 }
                 else
@@ -185,14 +187,14 @@ public class Cage
                 }
             }
         }
-        
+
     }
-    
-    void Horse  (InformationOfTheSituation info)
+
+    private void Horse(InformationOfTheSituation info)
     {
         Cage cage;
-        for (int i = -1; i <= 1; i+=2)
-            for (int ii = -2; ii <= 2; ii +=4)
+        for (int i = -1; i <= 1; i += 2)
+            for (int ii = -2; ii <= 2; ii += 4)
             {
                 if ((X + i) < 8 && (Y + ii) < 8 && (X + i) >= 0 && (Y + ii) >= 0)
                 {
@@ -208,7 +210,8 @@ public class Cage
                 }
             }
     }
-    void Bishop (InformationOfTheSituation info)
+
+    private void Bishop(InformationOfTheSituation info)
     {
         Vector2Int posKing = Vector2Int.one * -1;
         bool bindShape = false, firstEnemy;
@@ -286,7 +289,8 @@ public class Cage
             }
         }//линия шаха королю
     }
-    void Tower  (InformationOfTheSituation info)
+
+    private void Tower(InformationOfTheSituation info)
     {
         Vector2Int posKing = Vector2Int.one * -1;
         bool bindShape = false, firstEnemy;
@@ -319,7 +323,7 @@ public class Cage
                 break;
         }  //🢃
 
-        if(posKing.x != -1)
+        if (posKing.x != -1)
         {
             if (bindShape)
                 idBind = table.countBindShape;
@@ -356,19 +360,21 @@ public class Cage
                 }  //🢃
         }//линия шаха королю
     }
-    bool InCheckRay(Cage cage, bool bindShape)
+
+    private bool InCheckRay(Cage cage, bool bindShape)
     {
         bool enemyKing = cage.rank == 4 && black != cage.black;
         if (enemyKing)
             return true;
-            
+
         if (bindShape)
             cage.idBind = table.countBindShape;
         else
             cage.saveCheck = true;
         return false;
     }
-    bool Ray(InformationOfTheSituation info, Cage cage, ref Vector2Int posKing, ref bool bindShape, ref bool firstEnemy)
+
+    private bool Ray(InformationOfTheSituation info, Cage cage, ref Vector2Int posKing, ref bool bindShape, ref bool firstEnemy)
     {
         bool enemyKing = cage.rank == 4 && black != cage.black;
         if (info.rayCheck && enemyKing)
@@ -398,25 +404,28 @@ public class Cage
                     else
                         ChooseTarget(cage, info);
                 }
-                    
+
 
             }
             return true;
         }//если на пути фигура и сейчас не трасировка шаха и вражеский король
-        if (firstEnemy) 
+        if (firstEnemy)
             ChooseTarget(cage, info);
         return false;
     }
-    void Queen  (InformationOfTheSituation info)
+
+    private void Queen(InformationOfTheSituation info)
     {
-        Tower   (info);
-        Bishop  (info);
+        Tower(info);
+        Bishop(info);
     }
-    bool Enemy(Cage cage)
+
+    private bool Enemy(Cage cage)
     {
         return black != cage.black;
     }
-    void King   (InformationOfTheSituation info)
+
+    private void King(InformationOfTheSituation info)
     {
         if (Y + 1 < 8)//не выходит за границы y
             KingMove(info.cages[X][Y + 1], info);//🢁
@@ -454,7 +463,7 @@ public class Cage
                 for (int x = X + 1; x < 8 - 1; x++)
                     if (info.cages[x][Y].rank != -1)
                         obstacle = true;
-                if(!obstacle && info.cages[X + 2][Y].checkMove == 0)
+                if (!obstacle && info.cages[X + 2][Y].checkMove == 0)
                 {
                     if (info.moving)
                     {
@@ -474,7 +483,7 @@ public class Cage
                         obstacle = true;
                 if (!obstacle && info.cages[X - 2][Y].checkMove == 0)
                 {
-                    if(info.moving)
+                    if (info.moving)
                     {
                         table.generalMove.oldX = 0;
                         table.generalMove.oldY = Y;
@@ -486,25 +495,30 @@ public class Cage
             }//ракировка 🢀
         }//ракировка
     }
-    void KingMove(Cage cage, InformationOfTheSituation info)
+
+    private void KingMove(Cage cage, InformationOfTheSituation info)
     {
         if ((cage.rank == -1 || black != cage.black || info.rayCheck) && cage.checkMove == 0)//если на пути нет фигур  или это враг или сейчас трасировка шаха и при этом там безопасно
-            ChooseTarget(cage, info); 
+            ChooseTarget(cage, info);
     }
-    void Pawn   (InformationOfTheSituation info)
+
+    private void Pawn(InformationOfTheSituation info)
     {
         int size = 8,
         add = black ? -1 : 1;
 
         bool inRange = Y - 1 >= 0 && Y + 1 < 8;
-        if (inRange) {
-            Cage cage;
-            if (info.cages[X][Y + add].rank == -1 && !info.rayCheck)
+        if (inRange)
+        {
+            Cage cage = info.cages[X][Y + add];
+            if (cage.rank == -1 && !info.rayCheck)
             {
-                cage = info.cages[X][Y + 2 * add];
-                if (firstStep && (cage.rank == -1))
-                    ChooseTarget(cage, info);//🢁🢁
-
+                if (firstStep)
+                {
+                    cage = info.cages[X][Y + 2 * add];
+                    if (cage.rank == -1)
+                        ChooseTarget(cage, info);//🢁🢁
+                }
                 cage = info.cages[X][Y + add];
                 ChooseTarget(cage, info);//🢁
             }
@@ -558,16 +572,16 @@ public class Table : MonoBehaviour
     public InformationForGeneralMove generalMove;
     #endregion
     #region PRIVATE
-    GameObject[] WhiteClone, BlackClone;
-    GameObject[][] cagesObj;
-    Cage[][] cages;
-    ToggleGroup tGroup;
-    bool target, blackSideTime;
-    int previousX, previousY;
-    const int size = 8;
-    Table table;
+    private GameObject[] WhiteClone, BlackClone;
+    private GameObject[][] cagesObj;
+    private Cage[][] cages;
+    private ToggleGroup tGroup;
+    private bool target, blackSideTime;
+    private int previousX, previousY;
+    private const int size = 8;
+    private Table table;
     #endregion
-    void Start()
+    private void Start()
     {
         tGroup = GetComponent<ToggleGroup>();
         table = GetComponent<Table>();
@@ -620,7 +634,7 @@ public class Table : MonoBehaviour
                     else if (id < 16) rank = 5;
                     else rank = -1;
                     cages[x][y] = new Cage(x, y, Poz, cagesObj[x][y].transform.GetChild(0).gameObject, table, false, rank, id);
-                    if(rank != -1)
+                    if (rank != -1)
                         WhiteClone[id] = Instantiate(White[rank], cagesObj[x][y].transform.position, Quaternion.identity, transform);
 
                     if (id == 3)
@@ -629,7 +643,7 @@ public class Table : MonoBehaviour
                         rank = 3;
 
                     cages[7 - x][7 - y] = new Cage(7 - x, 7 - y, Poz, cagesObj[7 - x][7 - y].transform.GetChild(0).gameObject, table, true, rank, id);
-                    if (rank != -1) 
+                    if (rank != -1)
                         BlackClone[id] = Instantiate(Black[rank], cagesObj[7 - x][7 - y].transform.position, Quaternion.identity, transform);
                 }
                 else
@@ -649,7 +663,8 @@ public class Table : MonoBehaviour
             Destroy(BlackClone[id]);
         }//фигуры
     }
-    void Clear()//очистка информации на доске
+
+    private void Clear()//очистка информации на доске
     {
         taking_a_PawnOnThePass = false;
         countBindShape = 0;
@@ -662,7 +677,7 @@ public class Table : MonoBehaviour
     public void GeneralMove()//перемещение без проверок (пока если это пустая клетка)
     {
         {
-            
+
             if (blackSideTime)//ход чёрных
                 BlackClone[cages[generalMove.oldX][generalMove.oldY].id].transform.position = cages[generalMove.newX][generalMove.newY].position;
             else//ход белых
@@ -768,7 +783,8 @@ public class Table : MonoBehaviour
         previousY = y;
         return false;
     }
-    bool NextStep(int x, int y)//следующий ход
+
+    private bool NextStep(int x, int y)//следующий ход
     {
         Clear();
         bool be = cages[x][y].MoveEnd(cages[cages[x][y].moverX][cages[x][y].moverY]);
@@ -781,12 +797,13 @@ public class Table : MonoBehaviour
         Check();
         blackSideTime = !blackSideTime;
         if (blackSideTime)
-            Camera.main.backgroundColor = new Color32(20,20,20,255);
+            Camera.main.backgroundColor = new Color32(20, 20, 20, 255);
         else
             Camera.main.backgroundColor = new Color32(220, 220, 220, 255);
         return be;
     }
-    void Check()//проверка шаха
+
+    private void Check()//проверка шаха
     {
         check = false;
         countCheck = 0;
@@ -794,10 +811,10 @@ public class Table : MonoBehaviour
         for (int x = 0; x < size; x++)
             for (int y = 0; y < size; y++)
             {
-                cages[x][y].checkMove = 0; 
+                cages[x][y].checkMove = 0;
                 cages[x][y].saveCheck = false;
             }
-                
+
 
         for (int x = 0; x < size; x++)
             for (int y = 0; y < size; y++)
@@ -814,7 +831,7 @@ public class Table : MonoBehaviour
         if (check)
         {
             bool canSave = false;
-            if(countCheck == 1)
+            if (countCheck == 1)
             {
                 for (int x = 0; x < size; x++)
                     for (int y = 0; y < size; y++)
@@ -855,7 +872,7 @@ public class Table : MonoBehaviour
         else
             return false;
         wait = false;
-        if(cages[x][y].black)
+        if (cages[x][y].black)
             BlackClone[cages[x][y].id].GetComponent<Image>().sprite = sprites[rank];
         else
             WhiteClone[cages[x][y].id].GetComponent<Image>().sprite = sprites[rank + 4];

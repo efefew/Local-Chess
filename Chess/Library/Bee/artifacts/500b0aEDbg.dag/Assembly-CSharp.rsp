@@ -368,10 +368,17 @@
 -r:"Library/Bee/artifacts/500b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/500b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/500b0aEDbg.dag/UnityEngine.UI.ref.dll"
-"Assets/Scripts/CageTrigger.cs"
+"Assets/Scripts/Chessboard/Cage.cs"
+"Assets/Scripts/Chessboard/Chess.cs"
+"Assets/Scripts/Chessboard/Table.cs"
 "Assets/Scripts/Menu.cs"
-"Assets/Scripts/Table.cs"
-"Assets/Scripts/UpgradePawn.cs"
+"Assets/Scripts/Shapes/Bishop.cs"
+"Assets/Scripts/Shapes/Hourse.cs"
+"Assets/Scripts/Shapes/King.cs"
+"Assets/Scripts/Shapes/Pawn.cs"
+"Assets/Scripts/Shapes/Queen.cs"
+"Assets/Scripts/Shapes/Shape.cs"
+"Assets/Scripts/Shapes/Tower.cs"
 -langversion:9.0
 
 /deterministic

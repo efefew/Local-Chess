@@ -1,48 +1,12 @@
 fileFormatVersion: 2
-guid: dcfb35bfba9691a448506b3b21fb6a56
+guid: b93a4de9bae8eac4a850f1352bacd123
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -2686372270862251181
-    second: black king
-  - first:
-      213: 3977586900321160843
-    second: black queen
-  - first:
-      213: 2690806380373101417
-    second: black tower
-  - first:
-      213: 5667191759352353779
-    second: black bishop
-  - first:
-      213: -3907480253069445884
-    second: black horse
-  - first:
-      213: -8977461652415780064
-    second: black pawn
-  - first:
-      213: -3449548186061649053
-    second: white king
-  - first:
-      213: 8977627437485120229
-    second: white queen
-  - first:
-      213: 9106325506216709197
-    second: white tower
-  - first:
-      213: -2956588169925723806
-    second: white bishop
-  - first:
-      213: -3191672530731606158
-    second: white horse
-  - first:
-      213: 4369869290654513086
-    second: white pawn
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -69,11 +33,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
-    aniso: 1
+    filterMode: 2
+    aniso: 0
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
+    wrapU: 0
+    wrapV: 0
     wrapW: 0
   nPOTScale: 0
   lightmap: 0
@@ -87,7 +51,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -99,11 +63,11 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -165,22 +129,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: black king
+      name: black cage
       rect:
         serializedVersion: 2
         x: 0
-        y: 289
-        width: 88
-        height: 97
+        y: 1085
+        width: 329
+        height: 329
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35bcbc417a618bad0800000000000000
-      internalID: -2686372270862251181
+      spriteID: 6ca2ef07dfd7e7b458f32f75c6f3c1ed
+      internalID: 1616350534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black king
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 597
+        width: 263
+        height: 597
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b400b9f2112db4478c217e7520be223
+      internalID: -1530751701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white cage
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1085
+        width: 329
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db588f7714b89a04287c9a5305a92b53
+      internalID: 627244002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black hourse
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 597
+        width: 275
+        height: 444
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15880798f600a684b8f21b2b81b421a7
+      internalID: 849493333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white hourse
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 275
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea68b4b5cead1841a16afe474881423
+      internalID: -1411773517
       vertices: []
       indices: 
       edges: []
@@ -189,40 +237,19 @@ TextureImporter:
       name: black queen
       rect:
         serializedVersion: 2
-        x: 182
-        y: 290
-        width: 102
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1064
+        y: 597
+        width: 263
+        height: 473
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8ec3e0363a333730800000000000000
-      internalID: 3977586900321160843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black tower
-      rect:
-        serializedVersion: 2
-        x: 387
-        y: 289
-        width: 74
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96b4e7d752aa75520800000000000000
-      internalID: 2690806380373101417
+      spriteID: 19bc87b0066cae640a4671c821f05919
+      internalID: 1394355191
       vertices: []
       indices: 
       edges: []
@@ -231,40 +258,19 @@ TextureImporter:
       name: black bishop
       rect:
         serializedVersion: 2
-        x: 565
-        y: 286
-        width: 95
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 801
+        y: 597
+        width: 263
+        height: 457
+      alignment: 9
+      pivot: {x: 0.5, y: 0.145}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f3d73a01e8e5ae40800000000000000
-      internalID: 5667191759352353779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black horse
-      rect:
-        serializedVersion: 2
-        x: 758
-        y: 289
-        width: 88
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40531fc9967d5c9c0800000000000000
-      internalID: -3907480253069445884
+      spriteID: 0c66b87b9ccf5ac499f89f3affbe79ba
+      internalID: 605345155
       vertices: []
       indices: 
       edges: []
@@ -273,19 +279,40 @@ TextureImporter:
       name: black pawn
       rect:
         serializedVersion: 2
-        x: 959
-        y: 289
-        width: 64
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 538
+        y: 597
+        width: 263
+        height: 394
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02be0171136a96380800000000000000
-      internalID: -8977461652415780064
+      spriteID: 574c6a14434cb7c4c8fb263cac046fce
+      internalID: -701109917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black tower
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 597
+        width: 263
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28693ccfbdce8ac4fa0861e6b6db70b5
+      internalID: 760238993
       vertices: []
       indices: 
       edges: []
@@ -294,19 +321,19 @@ TextureImporter:
       name: white king
       rect:
         serializedVersion: 2
-        x: 1
-        y: 128
-        width: 89
-        height: 97
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1327
+        y: 0
+        width: 263
+        height: 597
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36bc336833eb020d0800000000000000
-      internalID: -3449548186061649053
+      spriteID: b4f471d9ebc90ba4ea26ec012b4a46c9
+      internalID: -1922838587
       vertices: []
       indices: 
       edges: []
@@ -315,40 +342,19 @@ TextureImporter:
       name: white queen
       rect:
         serializedVersion: 2
-        x: 184
-        y: 129
-        width: 102
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1064
+        y: 0
+        width: 263
+        height: 473
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ead911c690f69c70800000000000000
-      internalID: 8977627437485120229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: white tower
-      rect:
-        serializedVersion: 2
-        x: 388
-        y: 128
-        width: 73
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4c402fecca206e70800000000000000
-      internalID: 9106325506216709197
+      spriteID: cc723e0946d40144c88b9acad53a9c8a
+      internalID: 1320669465
       vertices: []
       indices: 
       edges: []
@@ -357,40 +363,19 @@ TextureImporter:
       name: white bishop
       rect:
         serializedVersion: 2
-        x: 566
-        y: 125
-        width: 95
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 801
+        y: 0
+        width: 263
+        height: 457
+      alignment: 9
+      pivot: {x: 0.5, y: 0.145}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 269747069b618f6d0800000000000000
-      internalID: -2956588169925723806
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: white horse
-      rect:
-        serializedVersion: 2
-        x: 758
-        y: 128
-        width: 88
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27fde565eb6e4b3d0800000000000000
-      internalID: -3191672530731606158
+      spriteID: f981cc8ab486f844394fbf5ca015ba8d
+      internalID: -1628635931
       vertices: []
       indices: 
       edges: []
@@ -399,19 +384,40 @@ TextureImporter:
       name: white pawn
       rect:
         serializedVersion: 2
-        x: 961
-        y: 128
-        width: 63
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 538
+        y: 0
+        width: 263
+        height: 394
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb7b950a7f4e4ac30800000000000000
-      internalID: 4369869290654513086
+      spriteID: f29926ef300f2434183dc0be649d4548
+      internalID: 1270566571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white tower
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 263
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a98602fa75514e4f94040c1720b8541
+      internalID: -954230551
       vertices: []
       indices: 
       edges: []
@@ -419,7 +425,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: dc6c1382d145a9c4e8cdf8c8c49bef82
     internalID: 0
     vertices: []
     indices: 
@@ -427,18 +433,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      black pawn: -8977461652415780064
-      white bishop: -2956588169925723806
-      white tower: 9106325506216709197
-      black tower: 2690806380373101417
-      black horse: -3907480253069445884
-      black queen: 3977586900321160843
-      white horse: -3191672530731606158
-      black bishop: 5667191759352353779
-      white king: -3449548186061649053
-      white pawn: 4369869290654513086
-      black king: -2686372270862251181
-      white queen: 8977627437485120229
+      black pawn: -701109917
+      black hourse: 849493333
+      white bishop: -1628635931
+      white tower: -954230551
+      black tower: 760238993
+      black cage: 1616350534
+      black queen: 1394355191
+      black bishop: 605345155
+      white king: -1922838587
+      white cage: 627244002
+      white hourse: -1411773517
+      white pawn: 1270566571
+      black king: -1530751701
+      white queen: 1320669465
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

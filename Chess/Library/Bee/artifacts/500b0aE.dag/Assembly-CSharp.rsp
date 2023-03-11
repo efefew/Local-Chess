@@ -370,7 +370,16 @@
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CageTrigger.cs"
 "Assets/Scripts/Menu.cs"
+"Assets/Scripts/Shapes/Bishop.cs"
+"Assets/Scripts/Shapes/Cage.cs"
+"Assets/Scripts/Shapes/Hourse.cs"
+"Assets/Scripts/Shapes/King.cs"
+"Assets/Scripts/Shapes/Pawn.cs"
+"Assets/Scripts/Shapes/Queen.cs"
+"Assets/Scripts/Shapes/Shape.cs"
+"Assets/Scripts/Shapes/Tower.cs"
 "Assets/Scripts/Table.cs"
+"Assets/Scripts/Table2.cs"
 "Assets/Scripts/UpgradePawn.cs"
 -langversion:9.0
 

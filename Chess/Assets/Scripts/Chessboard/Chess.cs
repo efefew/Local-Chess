@@ -18,18 +18,36 @@ public class Chess : MonoBehaviour
     }
     private void OnEnable()
     {
+        CreateTable();
+    }
+
+    private void CreateTable()
+    {
         realTable = Instantiate(tablePrefab, transform);
         realTable.CreateTable(this, true);
     }
+
     public void UpgradePawn(int idUpgrade)
     {
         upgradePawn.SetActive(false);
         realTable.OnChoosingPawnUpgrade(idUpgrade);
     }
+    public void Restart()
+    {
+        DestroyTable();
+        CreateTable();
+    }
     private void OnDisable()
     {
-        Destroy(realTable.gameObject);
+        DestroyTable();
     }
+
+    private void DestroyTable()
+    {
+        Destroy(realTable.gameObject);
+        realTable = null;
+    }
+
     private void Update()
     {
         if (!realTable)

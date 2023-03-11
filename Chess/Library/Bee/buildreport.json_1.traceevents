@@ -1,0 +1,375 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1678547756530630, "dur": 215786, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678547756530662, "dur": 8120, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678547756538783, "dur": 194016, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678547756732802, "dur": 13613, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678547756747045, "dur": 28, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1678547756564821, "dur":1710, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756566542, "dur":105, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1678547756566666, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1678547756566683, "dur":444, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1678547756567153, "dur":485, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756567638, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721268, "dur":313, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721581, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721601, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721604, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721611, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721613, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721618, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721620, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721625, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721627, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721632, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721634, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721639, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721641, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721645, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721648, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721652, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721655, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721662, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721664, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721669, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721671, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721676, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721678, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721682, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721693, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756721722, "dur":2147, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1678547756567235, "dur":411, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756567649, "dur":4855, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756572522, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678547756572528, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756572672, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678547756572674, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756572748, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1678547756572808, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756572996, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573081, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573156, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573221, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573274, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573320, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573364, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573413, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573456, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573513, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573570, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573620, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573691, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573750, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573828, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678547756573966, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756574038, "dur":4602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678547756578641, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756578698, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678547756578746, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756578786, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678547756578833, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756578878, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678547756578923, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756578970, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678547756579040, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756579100, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1678547756579241, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756579336, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1678547756579404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756585481, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1678547756588587, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678547756588631, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756588636, "dur":4503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Users/prodi/Downloads/Chess/New Unity Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678547756593179, "dur":674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678547756593862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756593872, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Users/prodi/Downloads/Chess/New Unity Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678547756594877, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1678547756594995, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756595033, "dur":1455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1678547756596489, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756596538, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678547756596584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756596591, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Users/prodi/Downloads/Chess/New Unity Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678547756597468, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1678547756597526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756597758, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Users/prodi/Downloads/Chess/New Unity Project_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1678547756599887, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1678547756599943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756599949, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Users/prodi/Downloads/Chess/New Unity Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1678547756601364, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1678547756601494, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678547756601540, "dur":119743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756567279, "dur":379, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756567659, "dur":4851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756572522, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1678547756572639, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756572690, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1678547756572742, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756572792, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":2, "ts":1678547756572859, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573067, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573149, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573202, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573260, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573303, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573348, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573391, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573435, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573480, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573532, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573582, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573623, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573761, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573811, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756573960, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678547756574023, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756574080, "dur":44100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678547756618183, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678547756618262, "dur":103015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678547756567266, "dur":387, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678547756567653, "dur":4853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678547756572522, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1678547756572701, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678547756572757, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678547756572831, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678547756572935, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678547756573014, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678547756573093, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678547756573165, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678547756573230, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678547756573295, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678547756573535, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678547756573591, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678547756573969, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678547756574033, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678547756574081, "dur":29674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678547756603755, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678547756603808, "dur":117464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678547756567312, "dur":352, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678547756567664, "dur":4845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678547756572520, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1678547756572662, "dur":280, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678547756572943, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678547756573023, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678547756573088, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678547756573596, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678547756573731, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678547756574081, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678547756574139, "dur":46934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678547756621074, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678547756621150, "dur":100127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756567351, "dur":318, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756567669, "dur":4839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756572521, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1678547756572659, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756572707, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1678547756572778, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756572833, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678547756572931, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756572977, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678547756573031, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756573092, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678547756573161, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756573461, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678547756573530, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756573589, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678547756573651, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756573700, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678547756573752, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756573806, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678547756573950, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756573994, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678547756574039, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756574085, "dur":38552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678547756612638, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678547756612705, "dur":108574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756567377, "dur":297, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756567674, "dur":4838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756572523, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1678547756572604, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756572853, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678547756572941, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573016, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573086, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573158, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573228, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573287, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573333, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573375, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573430, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573481, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573534, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573592, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573655, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573714, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678547756573957, "dur":428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756574386, "dur":25412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678547756599798, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756599858, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1678547756599916, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678547756599921, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Users/prodi/Downloads/Chess/New Unity Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1678547756601879, "dur":119402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678547756567423, "dur":255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678547756567678, "dur":4867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678547756572546, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1678547756572632, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678547756572688, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1678547756572757, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678547756572811, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project.exe" }}
+,{ "pid":12345, "tid":7, "ts":1678547756572872, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678547756572939, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678547756573169, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678547756573295, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678547756573490, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678547756573530, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678547756573682, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678547756573771, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678547756573833, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678547756574186, "dur":101215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678547756675402, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678547756675464, "dur":45827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756567446, "dur":237, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756567683, "dur":4831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756572522, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1678547756572614, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756572673, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1678547756572731, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756572777, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678547756572835, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756572886, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678547756572948, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573021, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573083, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573143, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573239, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573296, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573354, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573422, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573471, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573520, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573569, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573616, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573676, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573729, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573780, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573834, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678547756573966, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756574024, "dur":147165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678547756721190, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678547756721239, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1678547756721240, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678547756567483, "dur":204, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678547756567687, "dur":4855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678547756572545, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1678547756572734, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678547756572789, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678547756572943, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678547756573033, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678547756573355, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678547756573401, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678547756573447, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678547756573642, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678547756573702, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678547756573769, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678547756573831, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678547756574003, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678547756574048, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678547756574096, "dur":1845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678547756575942, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678547756575994, "dur":29212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678547756605206, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678547756605260, "dur":116015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756567518, "dur":173, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756567691, "dur":4848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756572540, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1678547756572675, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756572742, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1678547756572794, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756572842, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756572941, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756573019, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756573168, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756573236, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756573300, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756573354, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756573406, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756573454, "dur":689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756574143, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756574213, "dur":1277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756575490, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756575548, "dur":711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756576259, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756576306, "dur":689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756576995, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577044, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577086, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577124, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577164, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577207, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577249, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577287, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577326, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577361, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577400, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577436, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577476, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577514, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577874, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577948, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756577993, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578028, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578067, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578103, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578141, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578180, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578223, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578263, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578301, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578522, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578580, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578627, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578670, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578717, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578761, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578804, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578852, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578899, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578946, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756578991, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756579038, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756579084, "dur":96342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678547756675427, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678547756675518, "dur":45769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678547756567543, "dur":152, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678547756567695, "dur":4823, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678547756572523, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1678547756572653, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678547756572708, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1678547756572761, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678547756572817, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1678547756572867, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678547756573070, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678547756573148, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678547756573196, "dur":102391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678547756675587, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678547756675632, "dur":45653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678547756567573, "dur":126, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678547756567699, "dur":4812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678547756572521, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1678547756572946, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678547756573019, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678547756573370, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678547756573590, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678547756573674, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678547756573722, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678547756573768, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678547756573831, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678547756573962, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678547756574019, "dur":101491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Users/prodi/Downloads/Chess/New Unity Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678547756675510, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678547756675565, "dur":45724, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678547756725939, "dur":1326, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1678547756747151, "dur": 710, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678547756747022, "dur": 864, "ph": "X", "name": "Write chrome-trace events", "args": {} },

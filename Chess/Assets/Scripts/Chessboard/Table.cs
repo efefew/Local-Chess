@@ -82,32 +82,37 @@ public class Table : MonoBehaviour
     }
 
     /// <summary>
-    /// Создание фигур
+    /// Метод отвечает за создание фигур на шахматной доске
     /// </summary>
     private void CreateShapes(Shape[] whitePrefabs, Shape[] blackPrefabs)
     {
+        // Создаем пешки и устанавливаем их на соответствующие клетки на первом и последнем рядах доски для белых и чёрных соответственно
         for (int x = 0; x < Chess.size; x++)
         {
             CreateShape(whitePrefabs[0], cages[x, 1]);
             CreateShape(blackPrefabs[0], cages[x, Chess.size - 2]);
-        }//пешки
-        for (int id = 0; id < whitePrefabs.Length - 3/*исключаем пешку, королеву и короля*/; id++)
+        }
+
+        // Создаем фигуры, кроме пешек, королевы и короля, и устанавливаем их на соответствующие клетки на первом и последнем рядах доски для белых и чёрных соответственно. 
+        // Это башни, кони и слоны.
+        for (int id = 0; id < whitePrefabs.Length - 3/*(-3) = исключаем пешку, королеву и короля*/; id++)
         {
             CreateShape(whitePrefabs[id + 1], cages[id, 0]);
             CreateShape(blackPrefabs[id + 1], cages[id, Chess.size - 1]);
             CreateShape(whitePrefabs[id + 1], cages[Chess.size - 1 - id, 0]);
             CreateShape(blackPrefabs[id + 1], cages[Chess.size - 1 - id, Chess.size - 1]);
-        }//башня, конь, слон
+        }
 
+        // Создаем королеву и устанавливаем ее на клетку d1 для белых и d8 для чёрных
         CreateShape(whitePrefabs[4], cages[3, 0]);
         CreateShape(blackPrefabs[4], cages[3, Chess.size - 1]);
-        //королева
 
+        // Создаем фигуру короля и устанавливаем ее на клетку e1 для белых и e8 для чёрных. 
+        // Фигуры королей добавляем в словарь "kings", где ключом является цвет фигуры, а значением - объект фигуры. 
         CreateShape(whitePrefabs[5], cages[4, 0]);
         kings.Add(TypeSide.white, shapes.Last());
         CreateShape(blackPrefabs[5], cages[4, Chess.size - 1]);
         kings.Add(TypeSide.black, shapes.Last());
-        //король
     }
 
     /// <summary>
@@ -128,11 +133,19 @@ public class Table : MonoBehaviour
         shapes.Add(shape);
     }
 
+    /// <summary>
+    /// Метод отвечает за переход хода от одной стороны к другой и обновление состояния доски
+    /// </summary>
     private void NextStep()
     {
+        // Если игра происходит в реальном режиме, сбрасываем все выделения клеток
         if (realTable)
             chess.group.SetAllTogglesOff();
+
+        // Очищаем список клеток, на которых можно взять короля
         killKingCages.Clear();
+
+        // Переходим к следующей стороне
         switch (sideStep)
         {
             case TypeSide.white:
@@ -146,14 +159,23 @@ public class Table : MonoBehaviour
             default:
                 break;
         }
+
+        // Очищаем все выделенные клетки
         ClearCages();
+
+        // Очищаем список опасных клеток
         dangerCages.Clear();
+
+        // Обновляем список возможных ходов для фигур противоположной стороны
         for (int id = 0; id < shapes.Count; id++)
             if (shapes[id].side != sideStep)
                 shapes[id].relatedCages.Clear();
-        Shape king = kings[sideStep];
-        CheckDangerCages(king);
 
+        // Получаем объект фигуры короля текущей стороны
+        Shape king = kings[sideStep];
+
+        // Проверяем, находится ли король в опасности и обновляем список опасных клеток
+        CheckDangerCages(king);
     }
 
     private void ClearCages()
@@ -168,20 +190,32 @@ public class Table : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Метод проверяет, находится ли король текущей стороны в опасности, и обновляет список опасных клеток
+    /// </summary>
+    /// <param name="king">король текущей стороны</param>
     private void CheckDangerCages(Shape king)
     {
+        // Создаем список клеток, на которые можно сделать ход фигур противоположной стороны
         List<Cage> freeMoves = new List<Cage>();
+
+        // Для каждой фигуры противоположной стороны получаем список всех клеток, на которые она может сделать ход
         for (int id = 0; id < shapes.Count; id++)
             if (shapes[id].side != sideStep)
                 dangerCages.AddRange(shapes[id].CheckAllMoves(true));
-        //dangerCages = dangerCages.Distinct().ToList();
+
+        // Проверяем, находится ли король на одной из опасных клеток
         countCheckKing = dangerCages.Where(cage => cage && cage.shape && cage.shape == king).Count();
 
+        // Получаем список всех клеток, на которые текущая сторона может сделать ход
         for (int id = 0; id < shapes.Count; id++)
             if (shapes[id].side == sideStep)
                 freeMoves.AddRange(shapes[id].CheckAllMoves());
 
+        // Обновляем количество свободных ходов текущей стороны
         countFreeMoves = freeMoves.Count;
+
+        // Если свободных ходов нет и король находится под ударом, то это мат
         if (countFreeMoves == 0)
         {
             if (countCheckKing > 0)
@@ -222,18 +256,25 @@ public class Table : MonoBehaviour
     /// <returns></returns>
     public void OnCage(Cage cage)
     {
+        // Если на клетке есть фигура и ее сторона совпадает со значением переменной sideStep
+        // и эта фигура - король или число проверок на шах короля меньше 2
         if (cage.shape && cage.shape.side == sideStep && (cage.shape.type == TypeShape.king || countCheckKing < 2))
         {
+            // Вызываем метод ActiveCages со значением кликнутой клетки и возвращаем управление
             ActiveCages(cage);
             return;
         }
+        // Если нет выбранной целевой клетки или список доступных для хода клеток не содержит кликнутую клетку
+        // то вызываем метод ClearCages и возвращаем управление
         if (!targetCage || !moveCages.Contains(cage))
         {
             ClearCages();
             return;
         }
+        // Если переменная realTable равна true, то отключаем зеленую подсветку на целевой клетке
         if (realTable)
             targetCage.shape.green.SetActive(false);
+        // Устанавливаем фигуру с кликнутой клетки на целевую клетку и вызываем метод NextStep
         targetCage.shape.SetCage(cage);
         NextStep();
     }

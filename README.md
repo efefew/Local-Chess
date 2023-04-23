@@ -7,7 +7,7 @@ Copy git clone https://github.com/efefew/Local-Chess-Unity.git
 3.  Запустите игру, нажав кнопку "Play" в редакторе Unity.
 # Примеры использования
 https://user-images.githubusercontent.com/29331867/233851723-6209f059-c04d-44b7-b9ca-92eac67904fe.mp4
-![Снимок экрана (3)](https://user-images.githubusercontent.com/29331867/224493597-61ab2cee-77e8-44b9-b634-2fd4a3d083dc.png)
+[<img src="https://user-images.githubusercontent.com/29331867/224493597-61ab2cee-77e8-44b9-b634-2fd4a3d083dc.png" width="240">]
 ![Снимок экрана (4)](https://user-images.githubusercontent.com/29331867/224493599-65c92712-6905-47ef-bea8-d90d7094fe57.png)
 ![Снимок экрана (5)](https://user-images.githubusercontent.com/29331867/224493601-56a68f4f-e829-4ea0-8569-d510aa9a1d20.png)
 ![Снимок экрана (6)](https://user-images.githubusercontent.com/29331867/224493603-93034beb-95a7-4c4d-8416-2b90759df27a.png)

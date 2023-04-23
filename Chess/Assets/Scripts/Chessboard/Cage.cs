@@ -1,13 +1,13 @@
 using UnityEngine;
 /// <summary>
-///  летка
+///  Клетка
 /// </summary>
 public class Cage : MonoBehaviour
 {
     public Vector2Int position;
     public Table table;
     /// <summary>
-    /// фигура сто€ща€ на клетке
+    /// фигура стоящая на клетке
     /// </summary>
     public Shape shape = null;
     public GameObject label;

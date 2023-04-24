@@ -2,7 +2,7 @@
 Это проект игры в шахматы, созданный в Unity. Игра позволяет играть в шахматы с другим игроком на локальном компьютере.
 # Установка и запуск
 1.  Склонируйте репозиторий с помощью команды git clone: 
-Copy git clone https://github.com/efefew/Local-Chess-Unity.git
+Copy git clone https://github.com/efefew/Local-Chess.git
 2.  Откройте проект в Unity.
 3.  Запустите игру, нажав кнопку "Play" в редакторе Unity.
 # Примеры использования
